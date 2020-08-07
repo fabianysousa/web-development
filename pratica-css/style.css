@@ -1,0 +1,9 @@
+div {
+  border: 1px solid red;
+  width: 300px;
+  margin: 0px auto;
+}
+
+body {
+  background-color: yellow;
+}
