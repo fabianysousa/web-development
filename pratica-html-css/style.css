@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, darkblue, transparent, darkblue),
+    url(./img/fundo.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 40px;
+
+  color: whitesmoke;
+
+  font-family: Georgia, Helvetica, sans-serif;
+
+  text-align: center;
+}
+
+/* ----------------------- 
+  Style-title
+-------------------------- */
+
+.title,
+h1 {
+  font-size: 35px;
+}
+
+.title h2 {
+  font-size: 15px;
+}
+
+/* ----------------------- 
+  Style-form
+-------------------------- */
+
+.form {
+  padding: 45px;
+  margin: 5px 450px 60px 450px;
+  border: solid 1px #5869a1;
+  border-radius: 2px;
+
+  box-shadow: grey 2px 1px 2px;
+
+  background-color: #5869a1;
+  color: #d6dae2;
+
+  text-align: justify center;
+}
+
+form > div {
+  margin-bottom: 15px;
+
+  font-size: 15px;
+}
+
+/* ----------------------- 
+  Style-input
+-------------------------- */
+
+#name,
+#email,
+#age,
+select {
+  padding: 5px;
+
+  font-size: 13px;
+
+  width: 345px;
+  border-radius: 4px;
+}
+
+select {
+  padding: 5px;
+
+  width: 360px;
+  border-radius: 4px;
+}
+
+#msg {
+  padding: 5px;
+  padding-bottom: 44px;
+
+  width: 345px;
+  border-radius: 4px;
+}
+
+/* ----------------------- 
+  Style-button
+-------------------------- */
+
+.button {
+  text-align: center;
+}
+
+button {
+  color: #d6dae2;
+  background-color: green;
+  width: 355px;
+  height: 50px;
+}

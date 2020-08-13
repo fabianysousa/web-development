@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Projeto adaptado</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Projeto adaptado - Des Web</h1>
+        <h2>Exemplo de formulário de pesquisa (Survey)</h2>
+      </div>
+      <div class="form">
+        <form>
+          <div class="form__name">
+            <label for="name">Nome</label>
+            <br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder=" Coloque seu nome..."
+            />
+            <br />
+          </div>
+          <div class="form__email">
+            <label for="email">Email:</label>
+            <br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder=" Coloque o seu Email..."
+            />
+            <br />
+          </div>
+          <div class="form__age">
+            <label for="age">Idade</label>
+            <br />
+            <input
+              type="text"
+              id="age"
+              name="age"
+              pattern="[0-9]{2}[0-9]{1}"
+              placeholder=" Idade"
+            />
+            <br />
+          </div>
+          <div class="form__state">
+            Qual opcão melhor descreve o seu estado atual?
+            <br />
+            <select name="select">
+              <option value="state1" selected>Selecione a ocupação</option>
+              <option value="state2">Estudante</option>
+              <option value="state3">CLT</option>
+              <option value="state4">Prefiro não dizer</option>
+              <option value="state5">Outro</option>
+            </select>
+            <br />
+          </div>
+          <div class="form__recomendation">
+            Você recomendaria este projeto?
+            <br />
+            <input type="radio" id="rec" name="rec" value="sure" />
+            <label for="rec">Com certeza!</label>
+            <br />
+            <input type="radio" id="rec" name="rec" value="maybe" />
+            <label for="rec">Talvez</label>
+            <br />
+            <input type="radio" id="rec" name="rec" value="dontnow" />
+            <label for="rec">Não sei</label>
+            <br />
+          </div>
+          <div class="form__better">
+            O que você gostaria de melhorar? (Selecione quantas quiser)
+            <br />
+            <input type="checkbox" id="better" name="better" value="time" />
+            <label for="better">Ter mais tempo para estudar</label><br />
+            <input type="checkbox" id="better" name="better" value="morelike" />
+            <label for="better">Estudar mais o que gosto</label><br />
+            <input type="checkbox" id="better" name="better" value="gp" />
+            <label for="better">Gerência de projetos</label><br />
+            <input type="checkbox" id="better" name="better" value="nodejs" />
+            <label for="better">NodeJS</label><br />
+          </div>
+          <div class="form__msg">
+            <label for="msg">Algum comentário ou sugestão?</label>
+            <br />
+            <textarea
+              id="msg"
+              placeholder="Insira seu comentário ou sugestão aqui..."
+            ></textarea>
+            <br />
+          </div>
+          <div class="button">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
